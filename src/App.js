@@ -14,6 +14,7 @@ import {
     Route
 } from "react-router-dom";
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
                 <Route exact path="/restaurant" element={<Restaurant />} />
                 <Route exact path="/recreational" element={<Recreational />} />
             </Routes>
+            <Footer />
         </Router>
     )
 }

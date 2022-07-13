@@ -1,0 +1,14 @@
+.card {
+  width: 70vw;
+  border-radius: 70px;
+  background-color: #fff;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  position: relative;
+  box-shadow: 0 0 10px 5px rgba(128, 128, 128, 0.3);
+}
+
+@media only screen and (max-width: 1200px) {
+  .card {
+    width: 85vw;
+  }
+}
