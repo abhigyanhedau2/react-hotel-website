@@ -5,6 +5,9 @@ import About from './components/About/About';
 import Reviews from './components/Reviews/Reviews';
 import Contact from './components/Contact/Contact';
 import Admin from './components/Admin/Admin';
+import Experience from './components/Experience/Experience';
+import Restaurant from './components/Restaurant/Restaurant';
+import Recreational from './components/Recreational/Recreational';
 import {
     BrowserRouter as Router,
     Routes,
@@ -24,6 +27,9 @@ const App = () => {
                 <Route exact path="/reviews" element={<Reviews />} />
                 <Route exact path="/contact" element={<Contact />} />
                 <Route exact path="/admin" element={<Admin />} />
+                <Route exact path="/experience" element={<Experience />} />
+                <Route exact path="/restaurant" element={<Restaurant />} />
+                <Route exact path="/recreational" element={<Recreational />} />
             </Routes>
         </Router>
     )
