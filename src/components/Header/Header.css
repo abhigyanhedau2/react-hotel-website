@@ -1,6 +1,7 @@
 .header-wrapper {
   box-sizing: border-box;
   display: flex;
+  overflow: hidden;
   justify-content: space-between;
   width: 100vw;
   height: 64px;

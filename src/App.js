@@ -8,6 +8,7 @@ import Admin from './components/Admin/Admin';
 import Experience from './components/Experience/Experience';
 import Restaurant from './components/Restaurant/Restaurant';
 import Recreational from './components/Recreational/Recreational';
+import BookingForm from './components/BookingForm/BookingForm'
 import {
     BrowserRouter as Router,
     Routes,
@@ -31,6 +32,7 @@ const App = () => {
                 <Route exact path="/experience" element={<Experience />} />
                 <Route exact path="/restaurant" element={<Restaurant />} />
                 <Route exact path="/recreational" element={<Recreational />} />
+                <Route exact path="/bookingform" element={<BookingForm />} />
             </Routes>
             <Footer />
         </Router>

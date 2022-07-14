@@ -1,7 +1,6 @@
-.home-wrapper {
+.booking-wrapper {
   display: flex;
   flex-direction: column;
-  width: 100vw;
   box-sizing: border-box;
   overflow: hidden;
 }

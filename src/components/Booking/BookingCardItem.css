@@ -1,0 +1,184 @@
+.booking-card-wrapper {
+  height: 600px;
+  margin: 3rem auto;
+  overflow: hidden;
+  display: flex;
+}
+
+.booking-card-image-wrapper img {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+}
+
+.booking-card-details-wrapper {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.booking-card-details-wrapper hr {
+  width: 100%;
+  margin-left: 0;
+  height: 2px;
+  border: none;
+  background: -webkit-gradient(
+    linear,
+    0 0,
+    100% 0,
+    to(transparent),
+    color-stop(50%, #e7bb63)
+  );
+}
+
+.booking-card-details-wrapper p {
+  font-size: 1.25rem;
+  word-spacing: 0.25rem;
+  line-height: 2rem;
+}
+
+.amenities-and-rating {
+  display: flex;
+  flex-direction: column;
+}
+
+.amenities,
+.rating {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+}
+
+.amenities i {
+  margin: 0 0.25rem;
+}
+
+.rating i {
+  color: gold;
+  margin: 0 0.15rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.room-price {
+  display: flex;
+  align-items: center;
+}
+
+.room-price h1 {
+  color: #eead2b;
+  margin-right: 10px;
+}
+
+.room-price span {
+  font-size: 1.25rem;
+}
+
+.actions button {
+  padding: 0.65rem 0.75rem;
+  font-size: 1.15rem;
+  background-color: #f5bc4b;
+  border: 1px solid #f5bc4b;
+  color: #000;
+  border-radius: 10px;
+}
+
+.actions button:hover {
+  background-color: #fca800;
+  border: 1px solid #fca800;
+}
+
+@media only screen and (max-width: 1550px) {
+  .booking-card-wrapper {
+    height: 450px;
+  }
+  .booking-card-image-wrapper img {
+    width: 400px;
+    height: 450px;
+  }
+
+  .booking-card-details-wrapper {
+    padding: 0 1.5rem 1rem;
+  }
+
+  .room-info h1 {
+    margin: 1rem 0;
+  }
+
+  .room-info p {
+    font-size: 1.1rem;
+    word-spacing: 0.1rem;
+    line-height: 1.8rem;
+  }
+
+  .amenities,
+  .rating {
+    font-size: 1.1rem;
+    margin: 0.25rem 0;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .booking-card-wrapper {
+    width: 70vw;
+    height: 85vh;
+    margin: 3rem auto;
+    overflow: hidden;
+    display: flex;
+  }
+
+  .booking-card-image-wrapper img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .booking-card-image-wrapper img {
+    height: 30vh;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  .booking-card-wrapper {
+    width: 90vw;
+    height: 100vh;
+    margin: 3rem auto;
+    overflow: hidden;
+    display: flex;
+  }
+
+  .actions {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  .room-info p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .room-price {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .room-price span {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .booking-card-wrapper {
+    height: 110vh;
+  }
+}

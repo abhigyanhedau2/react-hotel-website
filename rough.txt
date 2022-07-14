@@ -1,0 +1,18 @@
+Types of Rooms - 
+1. Deluxe Room - Rs. 3500
+2. Queen Room - Rs. 5000
+3. King Room - Rs. 7500
+4. Penthouse Room - Rs. 12500
+5. Executive Suite - Rs. 15000
+6. Presidential Suite - Rs. 25000
+
+Types of Amenities -
+1. Free Parking - <i class="fa-solid fa-car"></i>
+2. Free WiFi and Internet Access - <i class="fa-solid fa-wifi"></i>
+3. Free Breakfast - <i class="fa-solid fa-plate-utensils"></i>
+4. Room Service - Cleaning - <i class="fa-solid fa-vacuum"></i>
+5. Mini Fridge - <i class="fa-solid fa-refrigerator"></i>
+6. Pool - <i class="fa-solid fa-water-ladder"></i>
+7. Tablets and TV - <i class="fa-solid fa-tv"></i>
+8. Gym and Fitness Center - <i class="fa-solid fa-dumbbell"></i>
+9. In Room Cocktail Station - <i class="fa-solid fa-beer-mug"></i>
