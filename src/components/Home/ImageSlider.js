@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide } from 'react-slideshow-image';
+import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import './ImageSlider.css';
 import imgsliderimg1 from '../../assets/Home/imgsliderimg1.jpg';
@@ -22,20 +22,38 @@ const ImageSlider = () => {
 
     return (
         <div className="slider-wrapper">
-            <Slide duration={2000}>
-                <div className="each-slide-effect">
-                    <div style={{ 'backgroundImage': `url(${images[0]})` }}>
+            <Fade duration={2000} arrows={false}>
+                <div className="each-slide slide">
+                    <div>
+                        <img src={images[0]} alt="..." />
                     </div>
                 </div>
-                <div className="each-slide-effect">
-                    <div style={{ 'backgroundImage': `url(${images[1]})` }}>
+                <div className="each-slide">
+                    <div>
+                        <img src={images[1]} alt="..." />
                     </div>
                 </div>
-                <div className="each-slide-effect">
-                    <div style={{ 'backgroundImage': `url(${images[2]})` }}>
+                <div className="each-slide">
+                    <div>
+                        <img src={images[2]} alt="..." />
                     </div>
                 </div>
-            </Slide>
+                <div className="each-slide">
+                    <div>
+                        <img src={images[3]} alt="..." />
+                    </div>
+                </div>
+                <div className="each-slide">
+                    <div>
+                        <img src={images[4]} alt="..." />
+                    </div>
+                </div>
+                <div className="each-slide">
+                    <div>
+                        <img src={images[5]} alt="..." />
+                    </div>
+                </div>
+            </Fade>
         </div>
     )
 }
