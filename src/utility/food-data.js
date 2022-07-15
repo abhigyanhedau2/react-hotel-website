@@ -1,18 +1,19 @@
+
 const foodItemsArr = [
     {
         id: 'bf1',
         category: 'Breakfast',
         name: 'Bacon and Eggs',
         desc: 'Fried or grilled slices of bacon and one or more fried eggs, eaten especially as part of a traditional English breakfast.',
-        imgurl: '../assets/Restaurant/Breakfast/baconandeggs.jpg',
+        imgurl: require('../assets/Restaurant/Breakfast/baconandeggs.jpg'),
         price: 450
     },
     {
         id: 'bf2',
         category: 'Breakfast',
-        name: 'Bacon and Eggs',
+        name: 'Idli',
         desc: 'Savoury rice cake, originating from the Indian subcontinent,  made by steaming a batter consisting of fermented black lentils and rice.',
-        imgurl: '../assets/Restaurant/Breakfast/idli.jpg',
+        imgurl: require('../assets/Restaurant/Breakfast/idli.jpg'),
         price: 150
     },
     {
@@ -20,7 +21,7 @@ const foodItemsArr = [
         category: 'Breakfast',
         name: 'Cornflakes and Milk',
         desc: 'Very healthy, protein-rich meal which is essential for an active body all day.',
-        imgurl: '../assets/Restaurant/Breakfast/cornflakesandmilk.jpg',
+        imgurl: require('../assets/Restaurant/Breakfast/cornflakesandmilk.jpg'),
         price: 120
     },
     {
@@ -28,7 +29,7 @@ const foodItemsArr = [
         category: 'Breakfast',
         name: 'Upma',
         desc: 'South Indian breakfast, cooked as a thick porridge from dry-roasted semolina or coarse rice flour.',
-        imgurl: '../assets/Restaurant/Breakfast/upma.jpg',
+        imgurl: require('../assets/Restaurant/Breakfast/upma.jpg'),
         price: 160
     },
     {
@@ -36,7 +37,7 @@ const foodItemsArr = [
         category: 'Breakfast',
         name: 'Pancakes',
         desc: 'Flat thin and round cake, prepared from a starch-based batter that may contain eggs, milk and butter',
-        imgurl: '../assets/Restaurant/Breakfast/pancakes.jpg',
+        imgurl: require('../assets/Restaurant/Breakfast/pancakes.jpg'),
         price: 300
     },
     {
@@ -44,7 +45,7 @@ const foodItemsArr = [
         category: 'Breakfast',
         name: 'Aloo Paratha',
         desc: 'Indian breakfast flatbreads made with whole wheat flour, mashed potatoes, spices & herbs.',
-        imgurl: '../assets/Restaurant/Breakfast/alooparatha.jpg',
+        imgurl: require('../assets/Restaurant/Breakfast/alooparatha.jpg'),
         price: 150
     },
     {
@@ -52,7 +53,7 @@ const foodItemsArr = [
         category: 'Breakfast',
         name: 'Scrambled Eggs',
         desc: 'Eggs stirred, whipped or beaten together while being gently heated, typically with salt, butter, oil and sometimes other ingredients.',
-        imgurl: '../assets/Restaurant/Breakfast/scrambledeggs.jpg',
+        imgurl: require('../assets/Restaurant/Breakfast/scrambledeggs.jpg'),
         price: 175
     },
     {
@@ -60,7 +61,7 @@ const foodItemsArr = [
         category: 'Breakfast',
         name: 'Poha',
         desc: 'Flattened rice, steam cooked with onions, spices and herbs.',
-        imgurl: '../assets/Restaurant/Breakfast/poha.jpg',
+        imgurl: require('../assets/Restaurant/Breakfast/poha.jpg'),
         price: 100
     },
     {
@@ -68,7 +69,7 @@ const foodItemsArr = [
         category: 'Breakfast',
         name: 'Omelette',
         desc: 'Beaten eggs, fried with butter or oil in a frying pan.',
-        imgurl: '../assets/Restaurant/Breakfast/omelette.jpg',
+        imgurl: require('../assets/Restaurant/Breakfast/omelette.jpg'),
         price: 120
     },
     {
@@ -76,7 +77,7 @@ const foodItemsArr = [
         category: 'Lunch',
         name: 'Masala Bhindi',
         desc: 'Okra, whole and ground spices cooked with onion and tomatoes',
-        imgurl: '../assets/Restaurant/Lunch/bhindi.jpg',
+        imgurl: require('../assets/Restaurant/Lunch/bhindi.jpg'),
         price: 175
     },
     {
@@ -84,7 +85,7 @@ const foodItemsArr = [
         category: 'Lunch',
         name: 'Chicken Wings',
         desc: 'Unbreaded chicken wing section that is generally deep-fried and then coated or dipped in a sauce consisting of a vinegar-based cayenne pepper hot sauce',
-        imgurl: '../assets/Restaurant/Lunch/chickenwings.jpg',
+        imgurl: require('../assets/Restaurant/Lunch/chickenwings.jpg'),
         price: 300
     },
     {
@@ -92,7 +93,7 @@ const foodItemsArr = [
         category: 'Lunch',
         name: 'Shahi Egg Curry',
         desc: 'Boiled Eggs dipped in a Tomato & Cashew Gravy makes a lip smacking egg curry',
-        imgurl: '../assets/Restaurant/Lunch/eggcurry.jpg',
+        imgurl: require('../assets/Restaurant/Lunch/eggcurry.jpg'),
         price: 200
     },
     {
@@ -100,7 +101,7 @@ const foodItemsArr = [
         category: 'Lunch',
         name: 'Chicken Fried Steak',
         desc: 'Tenderized cube steak, dipped in a milk or egg wash, dredged with seasoned flour, and fried in a skillet or deep-fried.',
-        imgurl: '../assets/Restaurant/Lunch/chickenfriedsteak.jpg',
+        imgurl: require('../assets/Restaurant/Lunch/chickenfriedsteak.jpg'),
         price: 550
     },
     {
@@ -108,7 +109,7 @@ const foodItemsArr = [
         category: 'Lunch',
         name: 'Paneer Butter Masala',
         desc: 'Rich & creamy curry made with paneer, spices, onions, tomatoes, cashews and butter',
-        imgurl: '../assets/Restaurant/Lunch/paneerbuttermasala.jpg',
+        imgurl: require('../assets/Restaurant/Lunch/paneerbuttermasala.jpg'),
         price: 350
     },
     {
@@ -116,7 +117,7 @@ const foodItemsArr = [
         category: 'Lunch',
         name: 'Caesar Salad',
         desc: 'Green salad of romaine lettuce and croutons dressed with lemon juice, olive oil, egg.',
-        imgurl: '../assets/Restaurant/Lunch/caesarsalad.jpg',
+        imgurl: require('../assets/Restaurant/Lunch/caesarsalad.jpg'),
         price: 250
     },
     {
@@ -124,7 +125,7 @@ const foodItemsArr = [
         category: 'Lunch',
         name: 'Dal Makhani',
         desc: 'Made with urad dal and other pulses, and includes butter and cream.',
-        imgurl: '../assets/Restaurant/Lunch/dalmakhani.jpg',
+        imgurl: require('../assets/Restaurant/Lunch/dalmakhani.jpg'),
         price: 300
     },
     {
@@ -132,7 +133,7 @@ const foodItemsArr = [
         category: 'Lunch',
         name: 'Barbecue Ribs',
         desc: 'Pork or beef ribs that are cooked using the low, indirect heat and smoke of a barbecue pit or the high, direct heat of a grill',
-        imgurl: '../assets/Restaurant/Lunch/barbecueribs.jpg',
+        imgurl: require('../assets/Restaurant/Lunch/barbecueribs.jpg'),
         price: 750
     },
     {
@@ -140,7 +141,7 @@ const foodItemsArr = [
         category: 'Lunch',
         name: 'Rajma',
         desc: 'Red kidney beans in a thick gravy with many Indian whole spices,',
-        imgurl: '../assets/Restaurant/Lunch/rajma.jpg',
+        imgurl: require('../assets/Restaurant/Lunch/rajma.jpg'),
         price: 300
     },
     {
@@ -148,7 +149,7 @@ const foodItemsArr = [
         category: 'Snacks',
         name: 'Veg Cutlet',
         desc: 'Coating a cutlet of veggies with breading or batter and either frying or baking it.',
-        imgurl: '../assets/Restaurant/Snacks/vegcutlet.jpg',
+        imgurl: require('../assets/Restaurant/Snacks/vegcutlet.jpg'),
         price: 150
     },
     {
@@ -156,7 +157,7 @@ const foodItemsArr = [
         category: 'Snacks',
         name: 'French Fries',
         desc: 'Batonnet or allumette-cut deep-fried potatoes, disputed origin from Belgium and France.',
-        imgurl: '../assets/Restaurant/Snacks/frenchfries.jpg',
+        imgurl: require('../assets/Restaurant/Snacks/frenchfries.jpg'),
         price: 125
     },
     {
@@ -164,7 +165,7 @@ const foodItemsArr = [
         category: 'Snacks',
         name: 'Samosa',
         desc: 'Fried pastry with a savory filling, including ingredients such as spiced potatoes, onions, and peas.',
-        imgurl: '../assets/Restaurant/Snacks/samosa.jpg',
+        imgurl: require('../assets/Restaurant/Snacks/samosa.jpg'),
         price: 100
     },
     {
@@ -172,7 +173,7 @@ const foodItemsArr = [
         category: 'Snacks',
         name: 'Cheese Balls',
         desc: 'Puffed corn snack, coated with a mixture of cheese or cheese-flavored powders.',
-        imgurl: '../assets/Restaurant/Snacks/cheeseballs.jpg',
+        imgurl: require('../assets/Restaurant/Snacks/cheeseballs.jpg'),
         price: 150
     },
     {
@@ -180,7 +181,7 @@ const foodItemsArr = [
         category: 'Snacks',
         name: 'Kachori',
         desc: 'Spicy deep-fried snack, originating from the Indian subcontinent',
-        imgurl: '../assets/Restaurant/Snacks/kachori.jpg',
+        imgurl: require('../assets/Restaurant/Snacks/kachori.jpg'),
         price: 100
     },
     {
@@ -188,7 +189,7 @@ const foodItemsArr = [
         category: 'Snacks',
         name: 'Noodles',
         desc: 'Unleavened dough which is rolled flat and cut, stretched or extruded, into long strips or strings.',
-        imgurl: '../assets/Restaurant/Snacks/noodles.jpg',
+        imgurl: require('../assets/Restaurant/Snacks/noodles.jpg'),
         price: 150
     },
     {
@@ -196,7 +197,7 @@ const foodItemsArr = [
         category: 'Snacks',
         name: 'Manchurian',
         desc: 'Roughly chopping and deep-frying ingredients such as chicken, cauliflower, prawns, fish, mutton, and paneer, and then sautéeing it in a sauce flavored with soy sauce.',
-        imgurl: '../assets/Restaurant/Snacks/manchurian.jpg',
+        imgurl: require('../assets/Restaurant/Snacks/manchurian.jpg'),
         price: 150
     },
     {
@@ -204,7 +205,7 @@ const foodItemsArr = [
         category: 'Snacks',
         name: 'Hash Browns',
         desc: 'Finely chopped potatoes that have been fried until browned.',
-        imgurl: '../assets/Restaurant/Snacks/hashbrowns.jpg',
+        imgurl: require('../assets/Restaurant/Snacks/hashbrowns.jpg'),
         price: 250
     },
     {
@@ -212,7 +213,7 @@ const foodItemsArr = [
         category: 'Snacks',
         name: 'Veg Sandwich',
         desc: 'Vegetables and sliced cheese placed on or between slices of bread',
-        imgurl: '../assets/Restaurant/Snacks/sandwich.jpg',
+        imgurl: require('../assets/Restaurant/Snacks/sandwich.jpg'),
         price: 200
     },
     {
@@ -220,7 +221,7 @@ const foodItemsArr = [
         category: 'Dinner',
         name: 'Palak Panner',
         desc: 'Paneer in a thick paste made from puréed spinach, called palak',
-        imgurl: '../assets/Restaurant/Dinner/palakpanner.jpg',
+        imgurl: require('../assets/Restaurant/Dinner/palakpanner.jpg'),
         price: 300
     },
     {
@@ -228,7 +229,7 @@ const foodItemsArr = [
         category: 'Dinner',
         name: 'Tandoori Chicken',
         desc: 'Roasted chicken marinated in yogurt and spices in a tandoor, a cylindrical clay oven',
-        imgurl: '../assets/Restaurant/Dinner/tandoorichicken.jpg',
+        imgurl: require('../assets/Restaurant/Dinner/tandoorichicken.jpg'),
         price: 500
     },
     {
@@ -236,7 +237,7 @@ const foodItemsArr = [
         category: 'Dinner',
         name: 'Macroni and Cheese',
         desc: 'Dish of cooked macaroni pasta and a cheese sauce, most commonly cheddar.',
-        imgurl: '../assets/Restaurant/Dinner/macandcheese.jpg',
+        imgurl: require('../assets/Restaurant/Dinner/macandcheese.jpg'),
         price: 350
     },
     {
@@ -244,7 +245,7 @@ const foodItemsArr = [
         category: 'Dinner',
         name: 'Chicken Biryani',
         desc: 'Savory chicken and rice dish that includes layers of chicken, rice, and aromatics that are steamed together.',
-        imgurl: '../assets/Restaurant/Dinner/chickenbiryani.jpg',
+        imgurl: require('../assets/Restaurant/Dinner/chickenbiryani.jpg'),
         price: 550
     },
     {
@@ -252,7 +253,7 @@ const foodItemsArr = [
         category: 'Dinner',
         name: 'Chicken Tikka Masala',
         desc: 'Roasted marinated chicken chunks in spiced orange gravy.',
-        imgurl: '../assets/Restaurant/Dinner/chickentikkamasala.jpg',
+        imgurl: require('../assets/Restaurant/Dinner/chickentikkamasala.jpg'),
         price: 400
     },
     {
@@ -260,7 +261,7 @@ const foodItemsArr = [
         category: 'Dinner',
         name: 'Veg Pulao',
         desc: 'Rice cooked in stock or broth, adding spices, and other veggies',
-        imgurl: '../assets/Restaurant/Dinner/vegpulao.jpg',
+        imgurl: require('../assets/Restaurant/Dinner/vegpulao.jpg'),
         price: 250
     },
     {
@@ -268,7 +269,7 @@ const foodItemsArr = [
         category: 'Dinner',
         name: 'Dal Tadka',
         desc: 'Cooked spiced lentils are finished with a tempering made of ghee/ oil and spices.',
-        imgurl: '../assets/Restaurant/Dinner/daltadka.jpg',
+        imgurl: require('../assets/Restaurant/Dinner/daltadka.jpg'),
         price: 200
     },
     {
@@ -276,7 +277,7 @@ const foodItemsArr = [
         category: 'Dinner',
         name: 'Barbecue Chicken',
         desc: 'Chicken parts or entire chickens that are barbecued, grilled or smoked.',
-        imgurl: '../assets/Restaurant/Dinner/bbqchicken.jpg',
+        imgurl: require('../assets/Restaurant/Dinner/bbqchicken.jpeg'),
         price: 500
     },
     {
@@ -284,7 +285,7 @@ const foodItemsArr = [
         category: 'Dinner',
         name: 'Kadhai Paneer',
         desc: 'Paneer cooked in spicy kadai masala, bell peppers, tomatoes and kasuri methi.',
-        imgurl: '../assets/Restaurant/Dinner/kadhaipaneer.jpg',
+        imgurl: require('../assets/Restaurant/Dinner/kadhaipaneer.jpg'),
         price: 350
     },
     {
@@ -292,7 +293,7 @@ const foodItemsArr = [
         category: 'Desserts',
         name: 'Blueberry Icecream',
         desc: 'Icecream made with sugar, water, cream and ofcourse blueberries',
-        imgurl: '../assets/Restaurant/Desserts/blueberry.jpg',
+        imgurl: require('../assets/Restaurant/Desserts/blueberry.jpg'),
         price: 120
     },
     {
@@ -300,7 +301,7 @@ const foodItemsArr = [
         category: 'Desserts',
         name: 'Gulab Jamun',
         desc: 'Sweet confectionary or dessert, originating in the Indian subcontinent',
-        imgurl: '../assets/Restaurant/Desserts/gulabjamun.jpg',
+        imgurl: require('../assets/Restaurant/Desserts/gulabjamun.jpeg'),
         price: 100
     },
     {
@@ -308,7 +309,7 @@ const foodItemsArr = [
         category: 'Desserts',
         name: 'Chocolate Icecream',
         desc: 'Icecream made with sugar, water, cream and ofcourse sweet sweet chocolate',
-        imgurl: '../assets/Restaurant/Desserts/chocolate.jpg',
+        imgurl: require('../assets/Restaurant/Desserts/chocolate.jpg'),
         price: 120
     },
     {
@@ -316,7 +317,7 @@ const foodItemsArr = [
         category: 'Desserts',
         name: 'Apple Pie',
         desc: 'Pie filled with apples served with whipped cream, ice cream, or cheddar cheese.',
-        imgurl: '../assets/Restaurant/Desserts/applepie.jpg',
+        imgurl: require('../assets/Restaurant/Desserts/applepie.jpg'),
         price: 175
     },
     {
@@ -324,7 +325,7 @@ const foodItemsArr = [
         category: 'Desserts',
         name: 'Vanilla Icecream',
         desc: 'Icecream made with sugar, water, cream and ofcourse sweet milk',
-        imgurl: '../assets/Restaurant/Desserts/vanilla.jpg',
+        imgurl: require('../assets/Restaurant/Desserts/vanilla.jpg'),
         price: 120
     },
     {
@@ -332,7 +333,7 @@ const foodItemsArr = [
         category: 'Desserts',
         name: 'Rasgulla',
         desc: 'Ball-shaped dumplings of chhena and semolina dough, cooked in light sugar syrup made of sugar. ',
-        imgurl: '../assets/Restaurant/Desserts/rasgulla.jpg',
+        imgurl: require('../assets/Restaurant/Desserts/rasgulla.jpg'),
         price: 100
     },
     {
@@ -340,7 +341,7 @@ const foodItemsArr = [
         category: 'Desserts',
         name: 'Strawberry Icecream',
         desc: 'Icecream made with sugar, water, cream and ofcourse strawberries',
-        imgurl: '../assets/Restaurant/Desserts/strawberry.jpg',
+        imgurl: require('../assets/Restaurant/Desserts/strawberry.jpg'),
         price: 120
     },
     {
@@ -348,7 +349,7 @@ const foodItemsArr = [
         category: 'Desserts',
         name: 'Trifle',
         desc: 'Thin layer of sponge fingers commonly soaked in sherry or another fortified wine, custard and a fruit element',
-        imgurl: '../assets/Restaurant/Desserts/trifle.jpg',
+        imgurl: require('../assets/Restaurant/Desserts/trifle.jpg'),
         price: 200
     },
     {
@@ -356,7 +357,7 @@ const foodItemsArr = [
         category: 'Desserts',
         name: 'Brownie with Icecream',
         desc: 'Brownie served with vanilla icecream topped with chocolate syrup',
-        imgurl: '../assets/Restaurant/Desserts/brownie.jpg',
+        imgurl: require('../assets/Restaurant/Desserts/brownie.jpg'),
         price: 250
     },
     {
@@ -364,7 +365,7 @@ const foodItemsArr = [
         category: 'Beverages',
         name: 'Mango Lassi',
         desc: 'Blend of yogurt, water, spices and mango.',
-        imgurl: '../assets/Restaurant/Beverages/mango.jpg',
+        imgurl: require('../assets/Restaurant/Beverages/mango.jpeg'),
         price: 80
     },
     {
@@ -372,7 +373,7 @@ const foodItemsArr = [
         category: 'Beverages',
         name: 'Coffee',
         desc: 'Brewed milk drink prepared from roasted coffee beans',
-        imgurl: '../assets/Restaurant/Beverages/mango.jpg',
+        imgurl: require('../assets/Restaurant/Beverages/coffee.jpg'),
         price: 120
     },
     {
@@ -380,7 +381,7 @@ const foodItemsArr = [
         category: 'Beverages',
         name: 'Tea',
         desc: 'Aromatic beverage prepared by pouring hot or boiling water over cured or fresh leaves of Camellia sinensis',
-        imgurl: '../assets/Restaurant/Beverages/tea.jpg',
+        imgurl: require('../assets/Restaurant/Beverages/tea.jpeg'),
         price: 90
     },
     {
@@ -388,7 +389,7 @@ const foodItemsArr = [
         category: 'Beverages',
         name: 'Lemonade',
         desc: 'Sweetened lemon-flavored beverage.',
-        imgurl: '../assets/Restaurant/Beverages/lemonade.jpg',
+        imgurl: require('../assets/Restaurant/Beverages/lemonade.jpg'),
         price: 75
     },
     {
@@ -396,7 +397,7 @@ const foodItemsArr = [
         category: 'Beverages',
         name: 'CocaCola',
         desc: 'Beverage served from the widely known company CocaCola',
-        imgurl: '../assets/Restaurant/Beverages/cocacola.jpg',
+        imgurl: require('../assets/Restaurant/Beverages/cocacola.jpg'),
         price: 120
     },
     {
@@ -404,7 +405,7 @@ const foodItemsArr = [
         category: 'Beverages',
         name: 'Fanta',
         desc: 'Beverage served from the widely known company Fanta',
-        imgurl: '../assets/Restaurant/Beverages/fanta.png',
+        imgurl: require('../assets/Restaurant/Beverages/fanta.png'),
         price: 120
     },
     {
@@ -412,7 +413,7 @@ const foodItemsArr = [
         category: 'Beverages',
         name: 'Sprite',
         desc: 'Beverage served from the widely known company Fanta',
-        imgurl: '../assets/Restaurant/Beverages/sprite.png',
+        imgurl: require('../assets/Restaurant/Beverages/sprite.png'),
         price: 120
     },
     {
@@ -420,15 +421,15 @@ const foodItemsArr = [
         category: 'Beverages',
         name: 'Falooda',
         desc: 'Rose syrup, vermicelli, and sweet basil seeds mixed with milk, often served with ice cream.',
-        imgurl: '../assets/Restaurant/Beverages/falooda.jpg',
+        imgurl: require('../assets/Restaurant/Beverages/falooda.jpg'),
         price: 150
     },
     {
-        id: 'bv8',
+        id: 'bv9',
         category: 'Beverages',
         name: 'Buttermilk',
         desc: 'Fermented dairy drink made with butter and milk',
-        imgurl: '../assets/Restaurant/Beverages/buttermilk.png',
+        imgurl: require('../assets/Restaurant/Beverages/buttermilk.png'),
         price: 80
     },
 ]
