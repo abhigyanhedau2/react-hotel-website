@@ -1,18 +1,3 @@
-Types of Rooms - 
-1. Deluxe Room - Rs. 3500
-2. Queen Room - Rs. 5000
-3. King Room - Rs. 7500
-4. Penthouse Room - Rs. 12500
-5. Executive Suite - Rs. 15000
-6. Presidential Suite - Rs. 25000
+In order to run the Hotel as a functional unit, we have several major departments in our hotel which work and coordinate together such as Front Office Department, Housekeeping Department, Food and Beverage Service Department, Kitchen or Food Production Department, Engineering and Maintenance Department, Accounts and Credits Department, Security Department, Human Resources (HR) Department, Sales and Marketing Department, Purchase Department, Information Technology (IT). 
 
-Types of Amenities -
-1. Free Parking - <i class="fa-solid fa-car"></i>
-2. Free WiFi and Internet Access - <i class="fa-solid fa-wifi"></i>
-3. Free Breakfast - <i class="fa-solid fa-plate-utensils"></i>
-4. Room Service - Cleaning - <i class="fa-solid fa-vacuum"></i>
-5. Mini Fridge - <i class="fa-solid fa-refrigerator"></i>
-6. Pool - <i class="fa-solid fa-water-ladder"></i>
-7. Tablets and TV - <i class="fa-solid fa-tv"></i>
-8. Gym and Fitness Center - <i class="fa-solid fa-dumbbell"></i>
-9. In Room Cocktail Station - <i class="fa-solid fa-beer-mug"></i>
+The Front Office Department performs various functions like reservation, reception, registration, room assignment, and settlement of bills of a resident guest and the front office department is considered as the nerve centre of a hotel. The front-office staff welcome the guests, carry their luggage, help them register, give them their room keys and mail, answer questions about the activities in the hotel and surrounding area, and finally check them out. In fact, the only direct contact most guests have with hotel employees, other than in the restaurants, is with members of the front-office staff.

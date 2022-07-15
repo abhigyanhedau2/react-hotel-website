@@ -18,6 +18,8 @@ const Booking = () => {
 
   return (
     <div className='booking-wrapper'>
+      <h1>Booking Section</h1>
+      <hr />
       {bookingCardList}
     </div>
   )

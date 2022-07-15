@@ -8,4 +8,5 @@ body {
   font-family: "Merriweather", serif;
   background-color: #fff;
   position:relative;
+  overflow-x: hidden;
 }

@@ -20,6 +20,10 @@
   justify-content: space-between;
 }
 
+.booking-card-details-wrapper h1 {
+  text-align: left;
+}
+
 .booking-card-details-wrapper hr {
   width: 100%;
   margin-left: 0;
