@@ -51,9 +51,15 @@
   color: #ffcf6e;
 }
 
+@media only screen and (max-width: 645px) {
+  .footer-wrapper ul li a {
+    margin: 0 0.2rem;
+  }
+}
+
 @media only screen and (max-width: 512px) {
   .footer-wrapper ul li a {
-    margin: 0 0.25rem;
+    margin: 0 0.2rem;
   }
 
   .footer-wrapper ul {
