@@ -9,7 +9,7 @@ import Restaurant from './components/Restaurant/Restaurant';
 import Recreational from './components/Recreational/Recreational';
 import BookingForm from './components/BookingForm/BookingForm'
 import {
-    BrowserRouter as Router,
+    BrowserRouter,
     Routes,
     Route
 } from "react-router-dom";
@@ -19,7 +19,7 @@ import Footer from './components/Footer/Footer';
 
 const App = () => {
     return (
-        <Router>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Header />
             <Routes>
                 <Route exact path="/" element={<Home />} />
@@ -33,7 +33,7 @@ const App = () => {
                 <Route exact path="/bookingform" element={<BookingForm />} />
             </Routes>
             <Footer />
-        </Router>
+        </BrowserRouter>
     )
 }
 
