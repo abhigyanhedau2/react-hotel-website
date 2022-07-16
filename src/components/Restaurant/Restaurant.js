@@ -79,7 +79,7 @@ const Restaurant = () => {
 				<h1>Restaurant</h1>
 				<hr />
 				<div className="restaurant-details">
-					<p>The quality of customer service and food offered in our restaurant is going to be one of the most memorable aspects while your stay in our hotel as we know that customer service can make or break someone's experience! There is a great atmosphere that is felt from the very moment your guests walk through the door of the restaurant with a well-chosen soundtrack to accompany your guests' dining experience. When paired with food, service and music, the interior design of our restaurant contributes to the overall ambience felt in the space, whilst also moulding the guest experience. Furniture in the restaurant is comfortable which will provide you a relaxing dining experience.</p>
+					<p>The quality of customer service and food offered in our restaurant is going to be one of the most memorable aspects while your stay in our hotel as we know that customer service can make or break someone's experience! There is a great atmosphere that is felt from the very moment our guests walk through the door of the restaurant with a well-chosen soundtrack to accompany our guests' dining experience. When paired with food, service and music, the interior design of our restaurant contributes to the overall ambience felt in the space, whilst also moulding the guest experience. Furniture in the restaurant is comfortable which will provide you a relaxing and royal dining experience.</p>
 					<img src={restaurantImg} alt="" />
 				</div>
 				<div className="menu">

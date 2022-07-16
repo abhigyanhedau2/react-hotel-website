@@ -412,7 +412,7 @@ const foodItemsArr = [
         id: 'bv7',
         category: 'Beverages',
         name: 'Sprite',
-        desc: 'Beverage served from the widely known company Fanta',
+        desc: 'Beverage served from the widely known company Sprite',
         imgurl: require('../assets/Restaurant/Beverages/sprite.png'),
         price: 120
     },

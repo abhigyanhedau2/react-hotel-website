@@ -12,7 +12,7 @@ const About = () => {
 
 	return (
 		<div className='about-wrapper'>
-			<div className="parallax" style={{ backgroundImage: 'url(' + img + ')' }}>
+			<div className="parallax-one" style={{ backgroundImage: 'url(' + img + ')' }}>
 				<div className="parallax-one-content">
 					<h1>About Us</h1>
 					<hr />
