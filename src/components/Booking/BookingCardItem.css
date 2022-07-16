@@ -91,6 +91,7 @@
   border: 1px solid #f5bc4b;
   color: #000;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .actions button:hover {

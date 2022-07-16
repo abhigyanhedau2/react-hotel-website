@@ -7,8 +7,8 @@
   height: 64px;
   background-color: #922c40;
   padding: 8px;
-  /* position: fixed;
-  top: 0; */
+  position: fixed;
+  top: 0;
   z-index: 10;
 }
 

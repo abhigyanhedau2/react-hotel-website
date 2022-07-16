@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
+  margin-top: 64px;
 }
 
 .restaurant-container {

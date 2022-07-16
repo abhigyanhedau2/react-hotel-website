@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Home.css';
 import LeftImageCardItem from './LeftImageCardItem';
 import RightImageCardItem from './RightImageCardItem';
@@ -14,6 +14,11 @@ const Home = () => {
         else
             return <RightImageCardItem key={item.id} heading={item.heading} desc={item.desc} imgurl={item.imgurl} link={item.link} />
     })
+
+    // Scroll to the top of the page after component is mounted
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <div className="home-wrapper">

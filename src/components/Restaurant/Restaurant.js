@@ -72,6 +72,11 @@ const Restaurant = () => {
 		return <FoodItem key={item.id} name={item.name} desc={item.desc} imgurl={item.imgurl} price={item.price} />
 	});
 
+	// Scroll to the top of the page after component is mounted
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
+
 
 	return (
 		<div className='restaurant-wrapper'>

@@ -3,6 +3,7 @@
   flex-direction: column;
   box-sizing: border-box;
   overflow: hidden;
+  margin-top: 64px;
 }
 
 .booking-wrapper h1{

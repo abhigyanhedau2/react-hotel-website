@@ -2,7 +2,8 @@
   width: 80vw;
   height: 70vh;
   margin: 3rem auto;
-  border-radius: 70px;
+  /* border-radius: 70px; */
+  box-shadow: 0 0 10px 5px rgba(128, 128, 128, 0.3);
   overflow: hidden;
 }
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Booking.css';
 import roomTypeArr from '../../utility/booking-room-type';
 import LeftBookingCardItem from './LeftBookingCardItem';
@@ -14,7 +14,10 @@ const Booking = () => {
       return <RightBookingCardItem type={item.type} desc={item.desc} imgurl={item.imgurl} amenities={item.amenities} rating={item.rating} price={item.price} />
   })
 
-  // roomTypeArr.forEach(item => console.log(item));
+  // Scroll to the top of the page after component is mounted
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className='booking-wrapper'>

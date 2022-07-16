@@ -2,7 +2,6 @@ import React from 'react';
 import Home from './components/Home/Home';
 import Booking from './components/Booking/Booking';
 import About from './components/About/About';
-import Reviews from './components/Reviews/Reviews';
 import Contact from './components/Contact/Contact';
 import Admin from './components/Admin/Admin';
 import Experience from './components/Experience/Experience';
@@ -26,7 +25,6 @@ const App = () => {
                 <Route exact path="/" element={<Home />} />
                 <Route exact path="/booking" element={<Booking />} />
                 <Route exact path="/about" element={<About />} />
-                <Route exact path="/reviews" element={<Reviews />} />
                 <Route exact path="/contact" element={<Contact />} />
                 <Route exact path="/admin" element={<Admin />} />
                 <Route exact path="/experience" element={<Experience />} />

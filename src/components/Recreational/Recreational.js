@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Recreational.css';
 import recimg1 from '../../assets/Recreational/recimg1.png';
 import recimg2 from '../../assets/Recreational/recimg2.png';
@@ -32,6 +32,10 @@ const Recreational = () => {
 		}
 	]
 
+	// Scroll to the top of the page after component is mounted
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
 
 	return (
 		<div className='recreational-wrapper '>
