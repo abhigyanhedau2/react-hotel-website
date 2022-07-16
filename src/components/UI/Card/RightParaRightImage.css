@@ -7,6 +7,10 @@
   margin-left: 2rem;
 }
 
+.rpri-para-wrapper h1 {
+  text-align: left;
+}
+
 .rpri-para-wrapper p {
   margin-top: 0;
 }
