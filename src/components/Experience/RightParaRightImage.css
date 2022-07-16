@@ -1,0 +1,34 @@
+.right-para-right-image-wrapper {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.rpri-para-wrapper {
+  margin-left: 2rem;
+}
+
+.rpri-para-wrapper p {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 975px) {
+  .right-para-right-image-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rpri-para-wrapper {
+    margin-left: 0rem;
+  }
+
+  .rpri-para-wrapper p {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .rpri-para-wrapper p {
+    margin-top: 1rem;
+  }
+  
+}

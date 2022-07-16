@@ -132,8 +132,8 @@ button.active {
   .restaurant-details p {
     margin-top: 2rem;
     font-size: 1.5rem;
-    padding-right: 2rem;
     word-spacing: 0.25rem;
+    text-align: justify;
     line-height: 2rem;
   }
 
@@ -159,9 +159,10 @@ button.active {
   .restaurant-details p {
     margin-top: 2rem;
     font-size: 1.25rem;
-    padding-right: 2rem;
+    padding-right: 0rem;
     word-spacing: 0.1rem;
     line-height: 1.5rem;
+    text-align: justify;
   }
 }
 
@@ -174,7 +175,6 @@ button.active {
   .restaurant-details p {
     margin-top: 1rem;
     font-size: 1rem;
-    padding-right: 2rem;
     word-spacing: 0rem;
     line-height: 1.25rem;
   }

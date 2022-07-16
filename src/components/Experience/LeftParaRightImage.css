@@ -1,0 +1,33 @@
+.left-para-right-image-wrapper {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.lpri-para-wrapper {
+  margin-right: 2rem;
+}
+
+.lpri-para-wrapper p {
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 975px) {
+  .left-para-right-image-wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .lpri-para-wrapper {
+    margin-right: 0rem;
+  }
+
+  .lpri-para-wrapper p {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .lpri-para-wrapper p {
+    margin-top: 1rem;
+  }
+}
