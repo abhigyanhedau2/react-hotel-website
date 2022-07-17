@@ -6,12 +6,12 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  
 }
 
 .food-item-img-wrapper img {
   width: 20vw;
   height: 30vh;
+  object-fit: cover;
 }
 
 .food-item-details-wrapper {

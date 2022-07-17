@@ -1,4 +1,3 @@
-
 const foodItemsArr = [
     {
         id: 'bf1',
