@@ -22,8 +22,18 @@ const Home = () => {
 
     return (
         <div className="home-wrapper">
-            <ImageSlider />
-            {homeCardList}
+            <div className="title-content">
+                <ImageSlider />
+                <div className="welcome-title">
+                    <h2>Welcome to</h2>
+                    <h1>The Royal Palace</h1>
+                    <hr />
+                    <p>A Complete Royal Experience.</p>
+                </div>
+            </div>
+            <div className="home-card-list">
+                {homeCardList}
+            </div>
         </div>
     )
 }

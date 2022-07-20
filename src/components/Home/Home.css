@@ -6,3 +6,62 @@
   overflow: hidden;
   margin-top: 64px;
 }
+
+.welcome-title {
+  color: white;
+  position: absolute;
+  top: 15vh;
+  left: 15vw;
+  width: 70vw;
+  background-color: rgba(255, 255, 255, 0.25);
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0.5rem 1rem 1rem;
+}
+
+.welcome-title hr {
+  width: 100%;
+  height: 2px;
+  border: none;
+  background: -webkit-gradient(
+    linear,
+    0 0,
+    100% 0,
+    from(transparent),
+    to(transparent),
+    color-stop(50%, #fff)
+  );
+}
+
+.welcome-title h2 {
+  margin: 0;
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+.welcome-title h1 {
+  margin: 0;
+  font-size: 4rem;
+}
+
+@media only screen and (max-width: 830px) {
+  .welcome-title {
+    top: 7vh;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .welcome-title {
+    top: 5vh;
+    left: 5vw;
+    width: 90vw;
+  }
+
+  .welcome-title h2 {
+    font-size: 2rem;
+  }
+
+  .welcome-title h1 {
+    font-size: 3rem;
+  }
+}

@@ -22,7 +22,7 @@ const ImageSlider = () => {
 
     return (
         <div className="slider-wrapper">
-            <Fade duration={2000} arrows={false}>
+            <Fade duration={3000} arrows={false}>
                 <div className="each-slide slide">
                     <div>
                         <img src={images[0]} alt="..." />
