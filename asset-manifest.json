@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-hotel-website/static/css/main.7510c576.css",
-    "main.js": "/react-hotel-website/static/js/main.dd131bbe.js",
+    "main.js": "/react-hotel-website/static/js/main.034a3899.js",
     "static/media/chickentikkamasala.jpg": "/react-hotel-website/static/media/chickentikkamasala.2c910eb46282fdf71470.jpg",
     "static/media/daltadka.jpg": "/react-hotel-website/static/media/daltadka.463b2703ec2120021739.jpg",
     "static/media/chickenfriedsteak.jpg": "/react-hotel-website/static/media/chickenfriedsteak.4853eebdcafe3315491f.jpg",
@@ -56,10 +56,10 @@
     "static/media/lemonade.jpg": "/react-hotel-website/static/media/lemonade.03bc40a836453e88f27c.jpg",
     "static/media/gulabjamun.jpeg": "/react-hotel-website/static/media/gulabjamun.0801434544a4bc6fb6d2.jpeg",
     "static/media/kadhaipaneer.jpg": "/react-hotel-website/static/media/kadhaipaneer.88e14b212245732654da.jpg",
+    "static/media/card1img.jpg": "/react-hotel-website/static/media/card1img.2984bbdc300752d2a659.jpg",
     "static/media/pancakes.jpg": "/react-hotel-website/static/media/pancakes.7a17359f597e8f0520bf.jpg",
     "static/media/vanilla.jpg": "/react-hotel-website/static/media/vanilla.90426f79d15fd6cbc596.jpg",
     "static/media/baconandeggs.jpg": "/react-hotel-website/static/media/baconandeggs.385a1fe9fbf06f973bc6.jpg",
-    "static/media/card1img.jpg": "/react-hotel-website/static/media/card1img.b61bc89984c52eec94cd.jpg",
     "static/media/tandoorichicken.jpg": "/react-hotel-website/static/media/tandoorichicken.a45f5722d43eb8d6c610.jpg",
     "static/media/executivesuite.jpg": "/react-hotel-website/static/media/executivesuite.37f787dd1afac178799e.jpg",
     "static/media/bbqchicken.jpeg": "/react-hotel-website/static/media/bbqchicken.ff3ebb9a94828787c52c.jpeg",
@@ -86,10 +86,10 @@
     "static/media/barbecueribs.jpg": "/react-hotel-website/static/media/barbecueribs.13bc5ded2e61c69fbf75.jpg",
     "index.html": "/react-hotel-website/index.html",
     "main.7510c576.css.map": "/react-hotel-website/static/css/main.7510c576.css.map",
-    "main.dd131bbe.js.map": "/react-hotel-website/static/js/main.dd131bbe.js.map"
+    "main.034a3899.js.map": "/react-hotel-website/static/js/main.034a3899.js.map"
   },
   "entrypoints": [
     "static/css/main.7510c576.css",
-    "static/js/main.dd131bbe.js"
+    "static/js/main.034a3899.js"
   ]
 }
