@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import './BookingForm.css';
 import useInput from '../../Hooks/use-input';
 
@@ -19,6 +19,8 @@ const isEmail = (enteredEmail) => {
 }
 
 const BookingForm = () => {
+
+	const [showAlert, setShowAlert] = useState(false);
 
 	const { inputIsValid: nameInputIsValid, setInputIsValid: setNameInputIsValid, inputIsTouched: nameInputIsTouched, setInputIsTouched: setNameInputIsTouched } = useInput();
 
@@ -93,25 +95,51 @@ const BookingForm = () => {
 		stringIsEmpty(enteredRoomType) ? setRoomTypeInputIsValid(false) : setRoomTypeInputIsValid(true);
 	}
 
+	const resetForm = () => {
+		nameInputRef.current.value = "";
+		emailInputRef.current.value = "";
+		numberInputRef.current.value = "";
+		aadharInputRef.current.value = "";
+		genderInputRef.current.value = "";
+		dateInputRef.current.value = "";
+		durationInputRef.current.value = "";
+		roomsInputRef.current.value = "";
+		roomTypeInputRef.current.value = "";
+	}
+
+	const showAlertHandler = () => {
+		setShowAlert(true);
+
+		setTimeout(() => {
+			setShowAlert(false);
+		}, 2000);
+	}
+
 	const formSubmitHandler = (event) => {
 		event.preventDefault();
 
 		const guestData = {
 			name: nameInputRef.current.value,
 			email: emailInputRef.current.value,
-			number: numberInputRef.current.value,
-			aadhar: aadharInputRef.current.value,
+			mobileNumber: numberInputRef.current.value,
+			aadharCardNumber: aadharInputRef.current.value,
 			gender: genderInputRef.current.value,
-			date: dateInputRef.current.value,
-			duration: durationInputRef.current.value,
-			rooms: roomsInputRef.current.value,
-			roomType: roomTypeInputRef.current.value
+			dateOfArrival: dateInputRef.current.value,
+			durationOfStayInDays: durationInputRef.current.value,
+			roomsBooked: roomsInputRef.current.value,
+			roomTypeBooked: roomTypeInputRef.current.value
 		}
 
 		const formIsValid = nameInputIsValid && emailInputIsValid && numberInputIsValid && aadharInputIsValid && genderInputIsValid && dateInputIsValid && durationInputIsValid && roomsInputIsValid && roomTypeInputIsValid;
 
 		if (formIsValid) {
-			alert('Booking Noted');
+			fetch('https://react-hotel-9e36f-default-rtdb.firebaseio.com/guestdata.json', {
+				method: 'POST',
+				body: JSON.stringify({ guestData: guestData })
+			})
+
+			resetForm();
+			showAlertHandler();
 		} else {
 			alert('Please fill the form completely');
 		}
@@ -119,6 +147,9 @@ const BookingForm = () => {
 
 	return (
 		<div className="booking-form-wrapper">
+			{showAlert && <div className="alert-wrapper">
+				<p><b>Booking Confirmed!</b> We're waiting for your arrival</p>
+			</div>}
 			<div className="booking-form-container">
 				<h1>Booking Form</h1>
 				<hr />

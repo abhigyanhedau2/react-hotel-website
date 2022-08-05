@@ -68,7 +68,7 @@
   display: flex;
 }
 
-.radio-option{
+.radio-option {
   display: flex;
 }
 
@@ -79,26 +79,39 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .booking-form-actions {
-    display: flex;
-    width: 100%;
-    justify-content: right;
+  display: flex;
+  width: 100%;
+  justify-content: right;
 }
 
 .submit-btn {
-    background-color: #922c40;
-    color: #fff;
-    padding: 0.5rem 0.75rem;
-    margin-top: 3rem;
-    border-radius: 10px;
-    border: none;
-    font-family: inherit;
+  background-color: #922c40;
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+  margin-top: 3rem;
+  border-radius: 10px;
+  border: none;
+  font-family: inherit;
 }
 
 .submit-btn:hover {
-    background-color: #5c1a27;
-    color: #ffcf6e;
-    padding: 0.5rem 0.75rem;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
+  background-color: #5c1a27;
+  color: #ffcf6e;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.alert-wrapper {
+  text-align: center;
+  width: 100vw;
+  padding: 1rem 0;
+  background-color: #caecd5;
+}
+
+.alert-wrapper p {
+  padding: 0;
+  margin: 0;
+  color: #35685d;
 }
