@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import './BookingForm.css';
 import useInput from '../../Hooks/use-input';
 
@@ -49,6 +49,14 @@ const BookingForm = () => {
 	const durationInputRef = useRef();
 	const roomsInputRef = useRef();
 	const roomTypeInputRef = useRef();
+
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
+
+	const scrollToTop = () => {
+		window.scrollTo(0, 0);
+	}
 
 	const nameInputBlurCheck = (enteredName) => {
 		setNameInputIsTouched(true);
@@ -143,6 +151,8 @@ const BookingForm = () => {
 		} else {
 			alert('Please fill the form completely');
 		}
+
+		scrollToTop();
 	}
 
 	return (
@@ -193,7 +203,7 @@ const BookingForm = () => {
 							{!genderInputIsValid && genderInputIsTouched && <p className='error-text'>*Please select a gender</p>}
 						</div>
 					</div>
-					<div className="input-wrapper">
+					<div className="input-wrapper responsive-date">
 						<label htmlFor="date">Date of Arrival: </label>
 						<div className='input-and-error'>
 							<input ref={dateInputRef} onBlur={(event) => { dateInputBlurCheck(event.target.value) }} type="date" name="date" id="date" />

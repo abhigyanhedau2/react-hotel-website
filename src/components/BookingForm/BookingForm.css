@@ -115,3 +115,26 @@ input[type="number"]::-webkit-outer-spin-button {
   margin: 0;
   color: #35685d;
 }
+
+@media only screen and (max-width: 670px) {
+  .booking-form-container {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .booking-form-container {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .booking-form-container {
+    width: 300px;
+  }
+
+  .responsive-date input {
+    width: 68%;
+    font-family: inherit;
+  }
+}
