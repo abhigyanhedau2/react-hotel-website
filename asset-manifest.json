@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-hotel-website/static/css/main.7510c576.css",
-    "main.js": "/react-hotel-website/static/js/main.034a3899.js",
+    "main.css": "/react-hotel-website/static/css/main.4fb80c2c.css",
+    "main.js": "/react-hotel-website/static/js/main.daeee253.js",
     "static/media/chickentikkamasala.jpg": "/react-hotel-website/static/media/chickentikkamasala.2c910eb46282fdf71470.jpg",
     "static/media/daltadka.jpg": "/react-hotel-website/static/media/daltadka.463b2703ec2120021739.jpg",
     "static/media/chickenfriedsteak.jpg": "/react-hotel-website/static/media/chickenfriedsteak.4853eebdcafe3315491f.jpg",
@@ -85,11 +85,11 @@
     "static/media/rasgulla.jpg": "/react-hotel-website/static/media/rasgulla.ff3b4816aba9071573e3.jpg",
     "static/media/barbecueribs.jpg": "/react-hotel-website/static/media/barbecueribs.13bc5ded2e61c69fbf75.jpg",
     "index.html": "/react-hotel-website/index.html",
-    "main.7510c576.css.map": "/react-hotel-website/static/css/main.7510c576.css.map",
-    "main.034a3899.js.map": "/react-hotel-website/static/js/main.034a3899.js.map"
+    "main.4fb80c2c.css.map": "/react-hotel-website/static/css/main.4fb80c2c.css.map",
+    "main.daeee253.js.map": "/react-hotel-website/static/js/main.daeee253.js.map"
   },
   "entrypoints": [
-    "static/css/main.7510c576.css",
-    "static/js/main.034a3899.js"
+    "static/css/main.4fb80c2c.css",
+    "static/js/main.daeee253.js"
   ]
 }
