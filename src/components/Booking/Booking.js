@@ -8,10 +8,10 @@ const Booking = () => {
 
   const bookingCardList = roomTypeArr.map(item => {
     if (item.imgPosition === 'left')
-      return <LeftBookingCardItem type={item.type} desc={item.desc} imgurl={item.imgurl} amenities={item.amenities} rating={item.rating} price={item.price} />
+      return <LeftBookingCardItem key={item.id} type={item.type} desc={item.desc} imgurl={item.imgurl} amenities={item.amenities} rating={item.rating} price={item.price} />
 
     else
-      return <RightBookingCardItem type={item.type} desc={item.desc} imgurl={item.imgurl} amenities={item.amenities} rating={item.rating} price={item.price} />
+      return <RightBookingCardItem key={item.id} type={item.type} desc={item.desc} imgurl={item.imgurl} amenities={item.amenities} rating={item.rating} price={item.price} />
   })
 
   // Scroll to the top of the page after component is mounted
