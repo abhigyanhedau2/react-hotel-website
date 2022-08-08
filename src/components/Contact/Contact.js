@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import useInput from '../../Hooks/use-input';
 import './Contact.css';
+import Alert from '../UI/Alert/Alert';
 
 const Contact = () => {
 
@@ -99,9 +100,7 @@ const Contact = () => {
 
 	return (
 		<div className='contact-wrapper'>
-			{showAlert && <div className="contact-alert-wrapper">
-				<p><b>Query Noted!</b> We'll get back to you on this.</p>
-			</div>}
+			{showAlert && <Alert boldMsg="Query Noted!" message="We'll get back to you on this." />}
 			<div className="contact-container">
 				<h1>Contact Us</h1>
 				<hr />

@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import './BookingForm.css';
 import useInput from '../../Hooks/use-input';
+import Alert from '../UI/Alert/Alert';
 
 const isMobileNumber = (number) => {
 	return number.trim().length === 10;
@@ -157,9 +158,7 @@ const BookingForm = () => {
 
 	return (
 		<div className="booking-form-wrapper">
-			{showAlert && <div className="booking-alert-wrapper">
-				<p><b>Booking Confirmed!</b> We're waiting for your arrival</p>
-			</div>}
+			{showAlert && <Alert boldMsg="Booking Confirmed!" message="We're waiting for your arrival" />}
 			<div className="booking-form-container">
 				<h1>Booking Form</h1>
 				<hr />
