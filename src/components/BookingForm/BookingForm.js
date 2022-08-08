@@ -157,7 +157,7 @@ const BookingForm = () => {
 
 	return (
 		<div className="booking-form-wrapper">
-			{showAlert && <div className="alert-wrapper">
+			{showAlert && <div className="booking-alert-wrapper">
 				<p><b>Booking Confirmed!</b> We're waiting for your arrival</p>
 			</div>}
 			<div className="booking-form-container">
