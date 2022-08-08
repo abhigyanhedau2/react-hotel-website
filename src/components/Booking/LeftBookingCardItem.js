@@ -28,7 +28,7 @@ const LeftBookingCardItem = (props) => {
                 </div>
                 <div className="amenities-and-rating">
                     <div className="amenities">
-                        <span>Amenities: {props.amenities.map(item => <i className={item}></i>)} </span>
+                        <span>Amenities: {props.amenities.map(item => <i key={item} className={item}></i>)} </span>
                     </div>
                     <div className="rating">
                         <span>Rating: {ratingArr.map(item => item)} </span>
