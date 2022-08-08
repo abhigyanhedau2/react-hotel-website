@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import logo from '../../assets/Header/logo.png';
 import { Link } from 'react-router-dom';
 import './Header.css';
@@ -25,7 +25,7 @@ const Header = () => {
                     <li className='list-item' onClick={toggleMenuHandler}><Link to="/restaurant">Restaurant</Link></li>
                     <li className='list-item' onClick={toggleMenuHandler}><Link to="/about">About</Link></li>
                     <li className='list-item' onClick={toggleMenuHandler}><Link to="/contact">Contact Us</Link></li>
-                    {/* <li className='list-item' onClick={toggleMenuHandler}><Link to="/admin">Admin Login</Link></li> */}
+                    <li className='list-item' onClick={toggleMenuHandler}><Link to="/login">Login</Link></li>
                 </ul>
             </div>
             <div className="nav-links">
@@ -38,7 +38,7 @@ const Header = () => {
                         <li className='list-item'><Link to="/contact">Contact Us</Link></li>
                     </ul>
                     <ul className='list right-list'>
-                        {/* <li className='list-item'><Link to="/admin">Admin Login</Link></li> */}
+                        <li className='list-item'><Link to="/login">Login</Link></li>
                     </ul>
                 </div>
             </div>
