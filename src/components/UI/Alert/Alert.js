@@ -3,10 +3,10 @@ import './Alert.css';
 
 const Alert = (props) => {
 
-    const classes = 'alert-wrapper ' + props.className;
+    const specifiedClasses = props.className === undefined ? '' : props.className;
 
     return (
-        <div className={classes}>
+        <div className={'alert-wrapper ' + specifiedClasses + props.mode}>
             <p><b>{props.boldMsg}</b> {props.message}</p>
         </div>
     )

@@ -3,7 +3,7 @@ import Home from './components/Home/Home';
 import Booking from './components/Booking/Booking';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
-// import Admin from './components/Admin/Admin';
+// import Login from './components/Login/Login';
 import Experience from './components/Experience/Experience';
 import Restaurant from './components/Restaurant/Restaurant';
 import Recreational from './components/Recreational/Recreational';
@@ -26,7 +26,7 @@ const App = () => {
                 <Route exact path="/booking" element={<Booking />} />
                 <Route exact path="/about" element={<About />} />
                 <Route exact path="/contact" element={<Contact />} />
-                {/* <Route exact path="/admin" element={<Admin />} /> */}
+                {/* <Route exact path="/login" element={<Login />} /> */}
                 <Route exact path="/experience" element={<Experience />} />
                 <Route exact path="/restaurant" element={<Restaurant />} />
                 <Route exact path="/recreational" element={<Recreational />} />

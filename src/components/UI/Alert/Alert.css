@@ -2,11 +2,25 @@
   text-align: center;
   width: 100vw;
   padding: 1rem 0;
-  background-color: #caecd5;
 }
 
 .alert-wrapper p {
   padding: 0;
   margin: 0;
+}
+
+.alert-wrapper.success {
+  background-color: #caecd5;
+}
+
+.alert-wrapper.success p {
   color: #35685d;
+}
+
+.alert-wrapper.failure {
+  background-color: #ffd4dc;
+}
+
+.alert-wrapper.failure p {
+  color: #93243c;
 }

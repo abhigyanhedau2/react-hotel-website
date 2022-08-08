@@ -100,7 +100,7 @@ const Contact = () => {
 
 	return (
 		<div className='contact-wrapper'>
-			{showAlert && <Alert boldMsg="Query Noted!" message="We'll get back to you on this." />}
+			{showAlert && <Alert mode="success" boldMsg="Query Noted!" message="We'll get back to you on this." />}
 			<div className="contact-container">
 				<h1>Contact Us</h1>
 				<hr />
