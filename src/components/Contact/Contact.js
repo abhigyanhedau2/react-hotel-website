@@ -86,7 +86,7 @@ const Contact = () => {
 		const formIsValid = nameIsValid && emailIsValid && queryIsValid;
 
 		if (formIsValid) {
-			fetch('https://react-hotel-9e36f-default-rtdb.firebaseio.com/contactdata.json', {
+			fetch('https://react-hotel-4d212-default-rtdb.firebaseio.com/contactdata.json', {
 				method: 'POST',
 				body: JSON.stringify({ contactData: contactData })
 			})

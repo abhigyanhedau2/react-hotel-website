@@ -142,7 +142,7 @@ const BookingForm = () => {
 		const formIsValid = nameInputIsValid && emailInputIsValid && numberInputIsValid && aadharInputIsValid && genderInputIsValid && dateInputIsValid && durationInputIsValid && roomsInputIsValid && roomTypeInputIsValid;
 
 		if (formIsValid) {
-			fetch('https://react-hotel-9e36f-default-rtdb.firebaseio.com/guestdata.json', {
+			fetch('https://react-hotel-4d212-default-rtdb.firebaseio.com/guestdata.json', {
 				method: 'POST',
 				body: JSON.stringify({ guestData: guestData })
 			})
