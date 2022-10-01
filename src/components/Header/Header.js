@@ -25,7 +25,7 @@ const Header = () => {
                     <li className='list-item' onClick={toggleMenuHandler}><Link to="/restaurant">Restaurant</Link></li>
                     <li className='list-item' onClick={toggleMenuHandler}><Link to="/about">About</Link></li>
                     <li className='list-item' onClick={toggleMenuHandler}><Link to="/contact">Contact Us</Link></li>
-                    <li className='list-item' onClick={toggleMenuHandler}><Link to="/login">Login</Link></li>
+                    {/* <li className='list-item' onClick={toggleMenuHandler}><Link to="/login">Login</Link></li> */}
                 </ul>
             </div>
             <div className="nav-links">
@@ -38,7 +38,7 @@ const Header = () => {
                         <li className='list-item'><Link to="/contact">Contact Us</Link></li>
                     </ul>
                     <ul className='list right-list'>
-                        <li className='list-item'><Link to="/login">Login</Link></li>
+                        {/* <li className='list-item'><Link to="/login">Login</Link></li> */}
                     </ul>
                 </div>
             </div>

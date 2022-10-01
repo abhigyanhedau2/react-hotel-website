@@ -158,7 +158,7 @@ const BookingForm = () => {
 
 	return (
 		<div className="booking-form-wrapper">
-			{showAlert && <Alert boldMsg="Booking Confirmed!" message="We're waiting for your arrival" />}
+			{showAlert && <Alert mode="success" boldMsg="Booking Confirmed!" message="We're waiting for your arrival" />}
 			<div className="booking-form-container">
 				<h1>Booking Form</h1>
 				<hr />
