@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-hotel-website/static/css/main.a3e66b4e.css",
-    "main.js": "/react-hotel-website/static/js/main.954f536b.js",
+    "main.js": "/react-hotel-website/static/js/main.f5e494c8.js",
     "static/media/chickentikkamasala.jpg": "/react-hotel-website/static/media/chickentikkamasala.2c910eb46282fdf71470.jpg",
     "static/media/daltadka.jpg": "/react-hotel-website/static/media/daltadka.463b2703ec2120021739.jpg",
     "static/media/chickenfriedsteak.jpg": "/react-hotel-website/static/media/chickenfriedsteak.4853eebdcafe3315491f.jpg",
@@ -86,10 +86,10 @@
     "static/media/barbecueribs.jpg": "/react-hotel-website/static/media/barbecueribs.13bc5ded2e61c69fbf75.jpg",
     "index.html": "/react-hotel-website/index.html",
     "main.a3e66b4e.css.map": "/react-hotel-website/static/css/main.a3e66b4e.css.map",
-    "main.954f536b.js.map": "/react-hotel-website/static/js/main.954f536b.js.map"
+    "main.f5e494c8.js.map": "/react-hotel-website/static/js/main.f5e494c8.js.map"
   },
   "entrypoints": [
     "static/css/main.a3e66b4e.css",
-    "static/js/main.954f536b.js"
+    "static/js/main.f5e494c8.js"
   ]
 }
